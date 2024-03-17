@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Sistema Solar</title>
+  <style>
+    body {
+      background-color: black;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    #container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 80vh;
+    }
+
+    #solar-system {
+      width: 600px;
+      height: 600px;
+      position: relative;
+    }
+
+    #sun {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-image: url("https://i.pinimg.com/564x/a1/18/7b/a1187bd19d7dcadc2eded1c5e3d7c69a.jpg");
+      background-size: cover;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .planet {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #mercury {
+      background-image: url("https://i.pinimg.com/564x/f7/07/86/f70786e192b99ebc439e3aeb11baef78.jpg"); 
+      background-size: cover;
+      animation: orbit-mercury 10s linear infinite; 
+    }
+
+    #venus {
+      background-image: url("https://i.pinimg.com/564x/00/92/0f/00920f6c8a440416c9ba3ffca76faad2.jpg"); 
+      background-size: cover;
+      animation: orbit-venus 15s linear infinite; 
+    }
+
+    #earth {
+      background-image: url("https://i.pinimg.com/564x/b2/57/2b/b2572b80c8ad364e43b3ae032f78dff8.jpg"); 
+      background-size: cover;
+      animation: orbit-earth 20s linear infinite; 
+    }
+
+    #mars {
+      background-image: url("https://i.pinimg.com/564x/7b/39/ef/7b39ef2a94a38c06ae4da5a406a693a2.jpg"); 
+      background-size: cover;
+      animation: orbit-mars 25s linear infinite; 
+    }
+
+    #jupiter {
+      background-image: url("https://i.pinimg.com/564x/5f/c7/3d/5fc73dbc85e18d7164f51e6d408548cd.jpg"); 
+      background-size: cover;
+      animation: orbit-jupiter 30s linear infinite; 
+    }
+
+    #saturn {
+      width: 80px;
+      height: 80px;
+      background-image: url("https://i.pinimg.com/564x/4b/9a/23/4b9a23467c2a88b5b0b9f6a02c615028.jpg"); 
+      background-size: cover;
+      animation: orbit-saturn 35s linear infinite;
+    }
+
+    #uranus {
+      background-image: url("https://i.pinimg.com/564x/c2/b6/b1/c2b6b139ba435bf2cfaa0c1e388a54cf.jpg");
+      background-size: cover;
+      animation: orbit-uranus 40s linear infinite; 
+    }
+
+    #neptune {
+      background-image: url("https://i.pinimg.com/564x/a7/d8/4d/a7d84d65266ce481932d4482eb8cf595.jpg"); 
+      background-size: cover;
+      animation: orbit-neptune 45s linear infinite; 
+    }
+
+    @keyframes orbit-mercury {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(120px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(120px) rotate(-360deg);
+      }
+    }
+
+    @keyframes orbit-venus {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(170px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(170px) rotate(-360deg);
+      }
+    }
+
+    @keyframes orbit-earth {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(220px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(220px) rotate(-360deg);
+      }
+    }
+
+    @keyframes orbit-mars {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(270px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(270px) rotate(-360deg);
+      }
+    }
+
+    @keyframes orbit-jupiter {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(320px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(320px) rotate(-360deg);
+      }
+    }
+
+    @keyframes orbit-saturn {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(370px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(370px) rotate(-360deg);
+      }
+    }
+
+    @keyframes orbit-uranus {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(420px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(420px) rotate(-360deg);
+      }
+    }
+
+    @keyframes orbit-neptune {
+      0% {
+        transform: translate(-50%, -50%) rotate(0deg) translateX(470px) rotate(0deg);
+      }
+      100% {
+        transform: translate(-50%, -50%) rotate(360deg) translateX(470px) rotate(-360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Sistema Solar</h1>
+  <div id="container">
+    <div id="solar-system">
+      <div id="sun"></div>
+      <div class="planet" id="mercury"><a href="https://pt.wikipedia.org/wiki/Merc%C3%BArio_(planeta)">Mercúrio</a></div> 
+      <div class="planet" id="venus"><a href="https://pt.wikipedia.org/wiki/V%C3%A9nus_(planeta)">Vênus</a></div> 
+      <div class="planet" id="earth"><a href="https://pt.wikipedia.org/wiki/Terra">Terra</a></div> 
+      <div class="planet" id="mars"><a href="https://pt.wikipedia.org/wiki/Marte_(planeta)">Marte</a></div> 
+      <div class="planet" id="jupiter"><a href="https://pt.wikipedia.org/wiki/J%C3%BApiter_(planeta)">Júpiter</a></div> 
+      <div class="planet" id="saturn"><a href="https://pt.wikipedia.org/wiki/Saturno_(planeta)">Saturno</a></div> 
+      <div class="planet" id="uranus"><a href="https://pt.wikipedia.org/wiki/Urano_(planeta)">Urano</a></div> 
+      <div class="planet" id="neptune"><a href="https://pt.wikipedia.org/wiki/Netuno_(planeta)">Netuno</a></div> 
+    </div>
+  </div>
+</body>
+</html>

@@ -31,7 +31,7 @@ nav{
     letter-spacing: 1px;
 }
 span{
-    color: #add8e6;
+    color: #858eb9;
 }
 
 nav ul li{
@@ -48,12 +48,12 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #add8e6;
+    color: #858eb9;
     transform: .4s;
 }
 
 .btn{
-    background-color: #add8e6;
+    background-color: #858eb9;
     color: #fff;
     text-decoration: none;
     border: 2px solid transparent;
@@ -75,7 +75,7 @@ nav ul li a:hover{
 }
 
 .Main span{
-    color: #add8e6;
+    color: #858eb9;
 }
 
 h1{
@@ -85,7 +85,7 @@ h1{
 }
 
 h4{
-    color: #fcfc;
+    color: #3e4565;
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -106,7 +106,7 @@ h3{
     display: inline-block;
     width: 100%;
     padding: 14px 130px 14px 15px;
-    border: 2px solid #f9004d;
+    border: 2px solid #858eb9;
     border-radius: 30px;
     outline: none;
 }
@@ -118,7 +118,7 @@ h3{
     border: none;
     padding: 10px 30px;
     border-radius: 30px;
-    background-color: #f9004d;
+    background-color: #858eb9;
     color: #fff;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     right: 6px;
@@ -166,7 +166,7 @@ h3{
 }
 
 .Text-sobre p{
-    color: #fcfc;
+    color: #3e4565;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -174,7 +174,7 @@ h3{
 }
 
 button{
-    background-color: #f9004d;
+    background-color: #858eb9;
     color: #fff;
     text-transform: none;
     border: 2px solid transparent;
@@ -187,7 +187,7 @@ button{
 
 button:hover{
     background-color: transparent;
-    border: 2px solid #f9004d;
+    border: 2px solid #858eb9;
     cursor: pointer;
 }
 
@@ -230,7 +230,7 @@ button:hover{
     display: block;
     text-align: center;
     margin: 25px 0px;
-    color: #f9004d;
+    color: #858eb9;
 }
 
 h5{
@@ -240,7 +240,7 @@ h5{
 }
 
 .Paragrafo-button{
-    color: #fcfc;
+    color: #3e4565;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -299,7 +299,7 @@ footer p{
 }
 
 .Redes-sociais a{
-    background-color: #f9004d;
+    background-color: #858eb9;
     width: 45px;
     height: 45px;
     padding: 15px;
@@ -321,7 +321,7 @@ footer p{
 
 .end{
     position: absolute;
-    color: #f9004d;
+    color: #858eb9;
     bottom: 35px;
     font-size: 14px ;
 }

@@ -31,7 +31,7 @@ nav{
     letter-spacing: 1px;
 }
 span{
-    color: #f9004d;
+    color: #add8e6;
 }
 
 nav ul li{
@@ -48,12 +48,12 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: #f9004d;
+    color: #add8e6;
     transform: .4s;
 }
 
 .btn{
-    background-color: #f9004d;
+    background-color: #add8e6;
     color: #fff;
     text-decoration: none;
     border: 2px solid transparent;
@@ -75,7 +75,7 @@ nav ul li a:hover{
 }
 
 .Main span{
-    color: #f9004d;
+    color: #add8e6;
 }
 
 h1{

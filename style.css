@@ -182,6 +182,7 @@ button{
     padding: 13px 20px;
     border-radius: 30px;
     transition: .4s;
+    text-align: center;
     
 }
 
@@ -324,4 +325,11 @@ footer p{
     color: #858eb9;
     bottom: 35px;
     font-size: 14px ;
+}
+.titles h2{
+    color: #fff;
+    font-size: 70px;
+    width: 1000px;
+    margin: 30px auto;
+    text-align: center;
 }

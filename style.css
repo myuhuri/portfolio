@@ -342,56 +342,14 @@ footer p{
     padding: 50px 0;
     color: #fff; 
 }
-
-.main-contato {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.Text-contato {
+    text-align: center; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
 }
-
-.Text-contato h3, .Text-contato p, .lista-contato li {
-    margin-bottom: 15px;
-}
-
-.lista-contato li {
-    list-style: none; 
-}
-
-.lista-contato i {
-    margin-right: 10px; 
-}
-
-.Form-contato form {
-    width: 100%;
-    max-width: 400px;
-}
-
-.Form-contato input[type="text"],
-.Form-contato input[type="email"],
-.Form-contato textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 5px;
-    background-color: #fff; 
-}
-
-.Form-contato input[type="submit"] {
-    background-color: #858eb9; 
-    color: #fff; 
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer; 
-    transition: background-color 0.3s; /
-}
-
-.Form-contato input[type="submit"]:hover {
-    background-color: #5f6387;
-}
-.main-contato {
-    text-align: center;
+.lista-contato {
+    list-style-type: none; 
+    padding: 0; 
 }

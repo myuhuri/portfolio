@@ -99,7 +99,23 @@
             <p>Se você tem alguma pergunta ou deseja discutir um projeto, sinta-se à vontade para entrar em contato comigo.</p>
             <ul class="lista-contato">
                 <li><i class="fas fa-envelope"></i> Email: thaemillytata73365@gmail.com</li>
-                <li><i class="fas fa-phone"></i> Telefone: (99) 99196-4728</li>      
+                <li><i class="fas fa-phone"></i> Telefone: (99) 99196-4728</li>
+                <div class="form">
+                    <form action="https://api.staticforms.xyz/submit" method="POST">
+                        <input type="hidden" name="accessKey" value="2b4d88e2-d15d-44a9-a567-1f165e2434c0">
+                        Nome: <br>
+                        <input type="text" name="name" required class="caixas" placeholder="Seu nome..."><br><br>
+                        E-mail: <br>
+                        <input type="email" name="email" required class="caixas" placeholder="Seu E-mail..."><br><br>
+                        Assunto: <br>
+                        <input type="hidden" name="subject" value="Contato Petster - ">
+                        <input type="text" name="subject" required class="caixas" placeholder="Assunto..."><br><br>
+                        Descrição: <br>
+                        <textarea name="message" style="width: 20em;" rows="6" class="caixas" placeholder="Digite aqui..."></textarea><br>
+            
+                        <button type="submit" onsubmit class="button">Enviar</button>
+                    </form>
+                </div>
             </ul>
         </div>
     </div>

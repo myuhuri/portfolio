@@ -363,10 +363,10 @@ footer p{
     margin: 5px;
   }
   .conteudo {
-    border: 2px solid #0a0849; /* Um azul mais claro que #07062c */
-    border-radius: 15px; /* Bordas arredondadas */
+    border: 2px solid #0a0849; 
+    border-radius: 15px; 
     margin-bottom: 10px;
-    overflow: hidden; /* Garante que nada ultrapasse a borda arredondada */
+    overflow: hidden; 
   }
   .coluna.imagens, .coluna.videos {
     display: flex;

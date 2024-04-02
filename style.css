@@ -5,14 +5,12 @@
     box-sizing: border-box;
 }
 
-
 .background{
     background-image: url(backp.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
-
 }
 
 nav{
@@ -59,7 +57,7 @@ nav ul li a:hover{
     border: 2px solid transparent;
     font-weight: bold;
     padding: 10px 25px;
-    border-radius: 30px;
+    border-radius: 30px; 
     transition: transform .4s;
 }
 
@@ -85,7 +83,7 @@ h1{
 }
 
 h4{
-    color: #858eb9;
+    color: #3e4565;
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -107,7 +105,7 @@ h3{
     width: 100%;
     padding: 14px 130px 14px 15px;
     border: 2px solid #858eb9;
-    border-radius: 30px;
+    border-radius: 30px; 
     outline: none;
 }
 
@@ -117,267 +115,10 @@ h3{
     outline: none;
     border: none;
     padding: 10px 30px;
-    border-radius: 30px;
+    border-radius: 30px; 
     background-color: #858eb9;
     color: #fff;
     box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
     right: 6px;
     top: 6px;
-    
 }
-
-.background-color-Sobre{
-    background-color: #191919;
-    width: 100%;
-    padding: 100px 0px;
-    
-}
-
-.background-color-Sobre img{
-    width: 430px;
-    height: auto;
-}
-
-.Text-sobre{
-    width: 550px;
-  }
-
-.main-sobre{
-   display: flex;
-   align-items: center;
-   justify-content: space-around;
-   width: 1130px;
-   margin: 0 auto;
-}
-
-.Text-sobre h2{
-    color: #fff;
-    font-size: 75px;
-    text-transform: capitalize;
-    margin-bottom: 20px;
-}
-
-.Text-sobre h5{
-    color: #fff;
-    letter-spacing: 2px;
-    font-size: 22px;
-    margin-bottom: 25px;
-    text-transform: capitalize;
-}
-
-.Text-sobre p{
-    color: #858eb9;
-    letter-spacing: 1px;
-    line-height: 28px;
-    font-size: 18px;
-    margin-bottom: 45px;
-}
-
-button{
-    background-color: #858eb9;
-    color: #fff;
-    text-transform: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 20px;
-    border-radius: 30px;
-    transition: .4s;
-    text-align: center;
-    
-}
-
-button:hover{
-    background-color: transparent;
-    border: 2px solid #858eb9;
-    cursor: pointer;
-}
-
-.Container-serviços{
-    background-color: #101010;
-    width: 100%;
-    padding: 100px 0px;
-}
-
-.title h2{
-    color: #fff;
-    font-size: 75px;
-    width: 1130px;
-    margin: 30px auto;
-    text-align: center;
-}
-
-.Caixa{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 400px;
-    flex-wrap: wrap;
-}
-
-.Card{
-    background: #191919;
-    height: 365px;
-    width: 335px;
-    border-radius: 20px;
-    margin: 15px;
-    position: relative;
-    overflow: hidden;
-    text-align:  center;
-    
-}
-
-.Card i{
-    font-size: 50px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: #858eb9;
-}
-
-h5{
-    color: #fff;
-    font-size: 23px;
-    margin-bottom: 15px;
-}
-
-.Paragrafo-button{
-    color: #858eb9;
-    font-size: 16px;
-    line-height: 27px;
-    margin-bottom: 25px;
-}
-
-.Paragrafo-button button{
-    margin-top: 25px;
-}
-
-.me-contate {
-    width: 100%;
-    height: 290px;
-    background-color: #191919;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center ;
-}
-
-.me-contate p{
-    color: #fff;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-footer{
-    position: relative;
-    width: 100%;
-    height: 400px;
-    background-color: #101010;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-footer h6{
-    font-size: 35px;
-    color: #fff;
-}
-
-footer p{
-    color: #fff;
-    font-size: 15px;
-    width: 500px;
-    text-align: center;
-    margin-top: 15px;
-    letter-spacing: 1px;
-    line-height: 23px;
-}
-
-.Redes-sociais{
-    display: flex;
-    
-}
-
-.Redes-sociais a{
-    background-color: #858eb9;
-    width: 45px;
-    height: 45px;
-    padding: 15px;
-    border-radius: 50%;
-    margin: 22px 10px;
-    color: #fff;
-    text-decoration: none;
-    font-size: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-}
-
-.Redes-sociais a:hover{
-    transform: scale(1.2);
-    transition: .3s;
-}
-
-.end{
-    position: absolute;
-    color: #858eb9;
-    bottom: 35px;
-    font-size: 14px ;
-}
-.titles h2{
-    color: #fff;
-    font-size: 70px;
-    width: 1000px;
-    margin: 30px auto;
-    text-align: center;
-}
-#Sobre-Mim {
-    color: #191919;
-}
-
-.background-color-Contato {
-    background-color: #191919; 
-    padding: 50px 0;
-    color: #fff; 
-}
-.Text-contato {
-    text-align: center; 
-    display: flex; 
-    flex-direction: column; 
-    justify-content: center; 
-    align-items: center; 
-}
-.lista-contato {
-    list-style-type: none; 
-    padding: 0; 
-}
-.galeria {
-    display: flex;
-    justify-content: space-around;
-    background-color: #07062c;
-    padding: 10px;
-  }
-  .coluna {
-    margin: 5px;
-  }
-  .conteudo {
-    border: 2px solid #0a0849; /* Um azul mais claro que #07062c */
-    border-radius: 15px; /* Bordas arredondadas */
-    margin-bottom: 10px;
-    overflow: hidden; /* Garante que nada ultrapasse a borda arredondada */
-  }
-  .coluna.imagens, .coluna.videos {
-    display: flex;
-    flex-direction: column;
-  }
-  .coluna img, .coluna video {
-    width: 100%;
-    display: block;
-  }
-  .cabeçalho-link{
-    align-items: center;
-    padding:250px;
-  }
-  

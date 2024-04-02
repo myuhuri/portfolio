@@ -85,7 +85,7 @@ h1{
 }
 
 h4{
-    color: #3e4565;
+    color: #858eb9;
     letter-spacing: 2px;
     font-size: 20px;
 }
@@ -166,7 +166,7 @@ h3{
 }
 
 .Text-sobre p{
-    color: #3e4565;
+    color: #858eb9;
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
@@ -241,7 +241,7 @@ h5{
 }
 
 .Paragrafo-button{
-    color: #3e4565;
+    color: #858eb9;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
@@ -375,5 +375,9 @@ footer p{
   .coluna img, .coluna video {
     width: 100%;
     display: block;
+  }
+  .cabeçalho-link{
+    align-items: center;
+    padding:250px;
   }
   

@@ -1,20 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <title>Minha Página</title>
+<meta charset="UTF-8">
+<title>Galeria de Animes e Filmes</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-        <tr>
-            <td><a href="https://br.web.img3.acsta.net/c_310_420/pictures/18/12/07/12/40/4530128.jpg" target="_blank"><img src="https://br.web.img3.acsta.net/c_310_420/pictures/18/12/07/12/40/4530128.jpg" alt="Imagem 1" width="200"></a></td>
-            <td><a href="https://mangalivre.com.br/wp-content/uploads/2021/10/Death-Note-GQVAN-tYV1Wm.jpeg" target="_blank"><img src="https://mangalivre.com.br/wp-content/uploads/2021/10/Death-Note-GQVAN-tYV1Wm.jpeg" alt="Imagem 2" width="200"></a></td>
-            <td><a href="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=480,height=720,fit=contain,quality=85/catalog/crunchyroll/8aa257503ef86474dffd0a518bb57d7a.jpe" target="_blank"><img src="https://imgsrv.crunchyroll.com/cdn-cgi/image/format=auto,width=480,height=720,fit=contain,quality=85/catalog/crunchyroll/8aa257503ef86474dffd0a518bb57d7a.jpe" alt="Imagem 3" width="200"></a></td>
-        </tr>
-        <tr>
-            <td><video width="320" height="240" controls><source src="eva.mp4" type="video/mp4"></video></td>
-            <td><video width="320" height="240" controls><source src="death.mp4" type="video/mp4"></video></td>
-            <td><video width="320" height="240" controls><source src="akame.mp4" type="video/mp4"></video></td>
-        </tr>
-    </table>
+
+<div class="galeria">
+  <div class="coluna imagens">
+    <div class="conteudo">
+      <a href="eva.jpg" target="_blank"><img src="eva.jpg" alt="Anime 1"></a>
+    </div>
+    <div class="conteudo">
+      <a href="akame.png" target="_blank"><img src="akame.png" alt="Anime 2"></a>
+    </div>
+    <div class="conteudo">
+      <a href="death.png" target="_blank"><img src="death.png" alt="Anime 3"></a>
+    </div>
+  </div>
+  <div class="coluna videos">
+    <div class="conteudo">
+      <video controls>
+        <source src="eva.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="conteudo">
+      <video controls>
+        <source src="akame.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="conteudo">
+      <video controls>
+        <source src="death.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</div>
+
 </body>
 </html>

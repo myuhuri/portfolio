@@ -1,40 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        body {
-            background-color: #191919;
-;
-            color: white;
-            border: 10px solid #3e4565; 
-        }
-        .contact-form {
-            width: 500px; 
-            margin: 0 auto;
-            padding: 20px;
-            text-align: center;
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            margin-bottom: 10px;
-        }
-        .contact-form button {
-            width: 100%;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Formulário Personalizado</title>
 </head>
 <body>
-    <div class="contact-form">
-        <form action="https://formsubmit.co/thaemillyoliveira@acad.ifma.edu.br" method="post">
-            <input type="text" name="name" placeholder="Digite seu nome" required>
-            <input type="email" name="email" placeholder="Digite seu e-mail" required>
-            <textarea cols="30" rows="10" name="message" placeholder="Digite sua mensagem" required></textarea>
-            <button type="button">Enviar</button>
-            <input type="hidden" name="_subject" value="Novo Contato!">
-            <input type="text" name="_honey" style="display:none">
-            <input type="hidden" name="_captcha" value="false">
-        </form>
-    </div>
+    <section class="form-container">
+        <div class="container">
+            <form method="post" action="envia.php">
+                <h1>Entre em contato</h1>
+                <p>Preencha o formulário abaixo e entraremos em contato com você</p>
+                <div class="input-single">
+                    <input class="input" type="text" id="nome" name="nome" required autocomplete="off">
+                    <label for="nome">Seu nome completo</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="email" name="email" required autocomplete="off">
+                    <label for="email">Seu e-mail</label>
+                </div>
+                <div class="input-single">
+                    <input class="input" type="text" id="telefone" name="telefone" required autocomplete="off">
+                    <label for="telefone">Seu telefone</label>
+                </div>
+                <div class="btn"><input type="submit" value="Enviar"></div>
+            </form>
+        </div>
+    </section>
 </body>
 </html>

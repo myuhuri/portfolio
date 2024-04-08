@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #191919;
+;
+            color: white;
+            border: 10px solid #3e4565; 
+        }
+        .contact-form {
+            width: 500px; 
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .contact-form button {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-form">
+        <form action="https://formsubmit.co/thaemillyoliveira@acad.ifma.edu.br" method="post">
+            <input type="text" name="name" placeholder="Digite seu nome" required>
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+            <textarea cols="30" rows="10" name="message" placeholder="Digite sua mensagem" required></textarea>
+            <button type="button">Enviar</button>
+            <input type="hidden" name="_subject" value="Novo Contato!">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+        </form>
+    </div>
+</body>
+</html>

@@ -5,14 +5,12 @@
     box-sizing: border-box;
 }
 
-
 .background{
     background-image: url(background.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
-
 }
 
 nav{
@@ -30,6 +28,7 @@ nav{
     cursor: pointer;
     letter-spacing: 1px;
 }
+
 span{
     color: #858eb9;
 }

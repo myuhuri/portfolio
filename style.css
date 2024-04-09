@@ -1,32 +1,3 @@
-@media screen and (max-width: 768px) {
-
-    .main-sobre, .Caixa {
-        flex-direction: column;
-    }
-
-    .background-color-Sobre img, .Text-sobre {
-        width: 100%;
-    }
-
-    .Card {
-        width: 100%;
-        margin: 15px 0;
-    }
-
-    nav {
-        flex-direction: column;
-    }
-
-    nav ul.cabeçalho-link {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    nav ul.cabeçalho-link li {
-        padding: 10px 0;
-    }
-}
-
 *{
     padding: 0;
     margin: 0;
@@ -34,12 +5,14 @@
     box-sizing: border-box;
 }
 
+
 .background{
     background-image: url(background.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
     width: 100%;
+
 }
 
 nav{
@@ -57,7 +30,6 @@ nav{
     cursor: pointer;
     letter-spacing: 1px;
 }
-
 span{
     color: #858eb9;
 }

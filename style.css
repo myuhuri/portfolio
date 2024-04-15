@@ -7,7 +7,7 @@
 
 
 .background{
-    background-image: url(background.png);
+    background-image: url(telapreta.jfif);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -386,4 +386,10 @@ footer p{
     justify-content: flex-end;
     position: absolute;
     right: 0;
+}
+.rei{
+    margin: 5%;
+    width: 1900px;
+    text-align: center;
+    margin-top: 15px;
 }

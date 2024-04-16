@@ -196,6 +196,7 @@ button:hover{
     background-color: #101010;
     width: 100%;
     padding: 100px 0px;
+    height: 100vh;
 }
 
 .title h2{
@@ -334,7 +335,7 @@ footer p{
     text-align: center;
 }
 #Sobre-Mim {
-    color: #191919;
+    color: #fff;
 }
 
 .background-color-Contato {

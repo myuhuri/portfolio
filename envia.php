@@ -5,11 +5,11 @@
     $telefone = addslashes($_POST['telefone']);
 
     $para = "thaemillytata73365@gmail.com";
-    $assunto = "Coleta de dados - Inteliogia";
+    $assunto = "Coleta de dados";
 
     $corpo = "Nome: ".$nome."\n"."E-mail: ".$email."\n"."Telefone: ".$telefone;
 
-    $cabeca = "From: teste@inteliogia.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
+    $cabeca = "From: thaemillytata73365@gmail.com"."\n"."Reply-to: ".$email."\n"."X=Mailer:PHP/".phpversion();
 
     if(mail($para,$assunto,$corpo,$cabeca)){
         echo("E-mail enviado com sucesso!");
